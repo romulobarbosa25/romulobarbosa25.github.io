@@ -1,366 +1,390 @@
 
-@media (min-width:500px) and (max-width:2000px) {
-    
+
 
 body{
-flex-wrap: wrap;
-}
-
-.background1{
-    background: #003366;
-    height: 80px;
-}
- .contatos{
-  
-  padding: 30px;
-  color: white;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
-  top: 15px;
-  left: 300px;
-
- }
- .contatos1{
-  
-    padding: 30px;
-    color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 15px;
-    left: 500px;
-  
-   }
-
-.cabare{
-color: white;
-margin: 20px 0px 60px 0px;
-padding : 150px;
-text-align:end;
-font-family: Arial, Helvetica, sans-serif;
-background-image: url("../img/capa1.png") ;
-
-}
-
-nav{
-    text-align: center;
-}
-nav a{
-    color: black;
-    display: inline-block;
-    padding: 10px 30px ;
-    margin: 10px;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 25px;
-   
-   }
-   
-
-nav a:hover{
-background-color: #003366;
-color: white;
-}
-
-h2 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.block{
-color:white;
-background: #003366;
-height: 450px;
-margin: 30px 0 30px 0;
-padding: 0 0 40px 0;
-
-
-}
-
-/*barra de agendamentos */
-.agendar{
-    color: white;
-    font-family: helvetica;
-    text-decoration: none;
-    position: absolute;
-    top: 1150px;
-    left: 85px;
-   
-}
-
-.agendar1{
-    color: white;
-    background: #72120B;
-    text-decoration: none;
-    border: 30px solid #a79f9e;
-    padding: 15px 40px;
-    margin: 15px 80px;
-    border: 20px;
-    border-radius: 25px;
-}
-.agendar1:hover{
-    background-color: #713a36;
-    color: black;
-}
-.agendar2{
-    color: white;
-    background: #72120B;
-    text-decoration: none;
-    border: 30px solid #a79f9e;
-    padding: 15px 40px;
-    margin: 15px 80px;
-    border: 20px;
-    border-radius: 25px;
-}
-.agendar2:hover{
-    background-color: #713a36;
-    color: black;
-}
-.agendar3{
-    color: white;
-    background: #72120B;
-    text-decoration: none;
-    border: 30px solid #a79f9e;
-    padding: 15px 40px;
-    margin: 15px 80px;
-    border: 20px;
-    border-radius: 25px;
-}
-.agendar3:hover{
-    background-color: #713a36;
-    color: black;
-}
-.agendar4{
-    color: white;
-    background: #72120B;
-    text-decoration: none;
-    border: 30px solid #a79f9e;
-    padding: 15px 40px;
-    margin: 15px 80px;
-    border: 20px;
-    border-radius: 25px;
-}
-.agendar4:hover{
-    background-color: #713a36;
-    color: black;
-}
-/*borda do menu das putas*/
-
-.borda1{
- background-color:#003366 ;
- border: 1px solid silver;
- height: 400px;
- width: 260px;
- position: absolute;
- top: 820px;
- left: 115px;
- border-radius: 10px;
-
-}
-.borda1:hover{
-background-color: #2d5d89;
-}
-.borda2{
- background-color:#003366 ;
- border: 1px solid silver;
- height: 400px;
- width: 260px;
- position: absolute;
- background-size: cover;
- top: 820px;
- left: 430px;
- border-radius: 10px;
- }
-.borda2:hover{
-    background-color: #2d5d89;
+    flex-wrap: wrap;
+    background:#d9e4ee ;
     }
-
-.borda3{
-    background-color:#003366 ;
-    border: 1px solid silver;
-    height: 400px;
-    width: 260px;
-    position: absolute;
-    background-size: cover;
-    top: 820px;
-    left: 755px;
-    border-radius: 10px;
-   }
-   .borda3:hover{
-    background-color: #2d5d89;
-    }
-
-   .borda4{
-    background-color:#003366 ;
-    border: 1px solid silver;
-    height: 400px;
-    width: 260px;
-    position: absolute;
-    background-size: cover;
-    top: 820px;
-    left: 1080px;
-    border-radius: 10px;
-   }
-   .borda4:hover{
-    background-color: #2d5d89;
-    }
-
-/*barra nome das putas*/
-.putas{
-    color: white;
-    font-family: helvetica;
-    text-decoration: none;
-    font-size: 30PX;
-    position: absolute;
-    top: 700px;
-    left: 100px;
-}
-.puta1{
-    margin: 15px 50px;
     
-}
-.puta2{
-    margin: 15px 50px;
-}
-.puta3{
-    margin: 15px 50px;
-}
-.puta4{
-    margin: 15px 50px;
-}
-
-
-/*menu de preços*/
-.preço1{
-    margin: 80px 15px;
-    position: absolute;
-    top: 1000px;
-    left: 160px;
-    color: aliceblue;
-  }
-  .preço2{
-    margin: 80px 15px;
-    position: absolute;
-    top: 1000px;
-    left: 490px ;
-    color: aliceblue;
-  }
-  .preço3{
-    margin: 80px 15px;
-    position: absolute;
-    top: 1000px;
-    left: 810px;
-    color: aliceblue;
-  }
-  .preço4{
-    margin: 80px 15px;
-    position: absolute;
-    top: 1000px;
-    left: 1130px;
-    color: aliceblue;
-  }
-
-/*menu boas vindas*/
-.line {
-    width: 10%;
-    height: 7px;
-    margin: 30px 30px 30px 180px;
-    background-color: #72120B;
-    transition: width 1s ease-out;
-  }
-  
-  .line:hover {
-    width: 50%;
-
-  }
- 
-.bemvindos{
-    background-color: ;
-    color: #72120B;
-    font-size: 20px;
-    font-family:  Arial, Helvetica, sans-serif;
-    padding: 10px 10px 10px 180px;
-    width: 250px;
-    height: 30px;
-    margin: 0;
-
-
-}
-
-.boavindas{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #999999;
-    box-sizing: border-box;
-    margin: 20px 20px 90px 180px;
+    .background1{
+        background: #003366;
+        height: 80px;
+    }
+     .contatos{
+      
+      padding: 30px;
+      color: white;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      top: 15px;
+      left: 300px;
     
-}
-/*imagens das putas*/
-.img1{
-    position: absolute;
-    top: 840px;
-    left: 150px;
-}
-
-.img2{
-    position: absolute;
-    top: 840px;
-    left: 452px;
-   
-}
-.img3{
-    position: absolute;
-    top: 840px;
-    left: 795px;
-}
-.img4{
-    position: absolute;
-    top: 840px;
-    left: 1100px;
-}
-
-/*rodape da pag*/
-footer {
+     }
+     .contatos1{
+      
+        padding: 30px;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 15px;
+        left: 500px;
+      
+       }
+    
+    .cabare{
+    color: white;
+    margin: 20px 0px 60px 0px;
+    padding : 150px;
+    width: 100%;
+    text-align:end;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/capa1.png") ;
+    
+    }
+    
+    nav{
+        text-align: center;
+    }
+    nav a{
+        color: black;
+        display: inline-block;
+        padding: 10px 30px ;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 25px;
+       
+       }
+       
+    
+    nav a:hover{
     background-color: #003366;
-    padding: 20px 0px 150px 0px;
-    text-align: center;
-    font-size: 14px;
     color: white;
-    margin: 20px 0px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    position:absolute;
-    top: 1800px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    
- 
-    z-index: 1;
-  }
-  .insta{
-    margin: 10px 20px 10px 10px;
-  }
-.line2{
-    height: 2px;
-    width: 100%;
-    background-color: #999999;
-    margin: 20px 0px 10px 0px;
-}
-
-
-#form-container{
-    
-    flex-direction: column;
-    position:absolute;
-    top: 1400px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
     }
-
-    #register-form{
-        font-family: Arial, Helvetica, sans-serif ;
+    
+    h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .block{
+    color:white;
+    background: #003366;
+    height: 450px;
+    width: 100%;
+    margin: 30px 0 30px 0;
+    padding: 0 0 40px 0;
+    
+    
+    }
+    
+    /*barra de agendamentos */
+    .agendar{
+        color: white;
+        font-family: helvetica;
+        text-decoration: none;
+        position: absolute;
+        top: 1150px;
+        left: 85px;
+       
+    }
+    
+    .agendar1{
+        color: white;
+        background: #72120B;
+        text-decoration: none;
+        border: 30px solid #a79f9e;
+        padding: 15px 40px;
+        margin: 15px 80px;
+        border: 20px;
+        border-radius: 25px;
+    }
+    .agendar1:hover{
+        background-color: #713a36;
+        color: black;
+    }
+    .agendar2{
+        color: white;
+        background: #72120B;
+        text-decoration: none;
+        border: 30px solid #a79f9e;
+        padding: 15px 40px;
+        margin: 15px 80px;
+        border: 20px;
+        border-radius: 25px;
+    }
+    .agendar2:hover{
+        background-color: #713a36;
+        color: black;
+    }
+    .agendar3{
+        color: white;
+        background: #72120B;
+        text-decoration: none;
+        border: 30px solid #a79f9e;
+        padding: 15px 40px;
+        margin: 15px 80px;
+        border: 20px;
+        border-radius: 25px;
+    }
+    .agendar3:hover{
+        background-color: #713a36;
+        color: black;
+    }
+    .agendar4{
+        color: white;
+        background: #72120B;
+        text-decoration: none;
+        border: 30px solid #a79f9e;
+        padding: 15px 40px;
+        margin: 15px 80px;
+        border: 20px;
+        border-radius: 25px;
+    }
+    .agendar4:hover{
+        background-color: #713a36;
+        color: black;
+    }
+    /*borda do menu das putas*/
+    
+    .borda1{
+     background-color:#003366 ;
+     border: 1px solid silver;
+     height: 400px;
+     width: 260px;
+     position: absolute;
+     top: 820px;
+     left: 115px;
+     border-radius: 10px;
+    
+    }
+    .borda1:hover{
+    background-color: #2d5d89;
+    }
+    .borda2{
+     background-color:#003366 ;
+     border: 1px solid silver;
+     height: 400px;
+     width: 260px;
+     position: absolute;
+     background-size: cover;
+     top: 820px;
+     left: 430px;
+     border-radius: 10px;
+     }
+    .borda2:hover{
+        background-color: #2d5d89;
+        }
+    
+    .borda3{
+        background-color:#003366 ;
+        border: 1px solid silver;
+        height: 400px;
+        width: 260px;
+        position: absolute;
+        background-size: cover;
+        top: 820px;
+        left: 755px;
+        border-radius: 10px;
+       }
+       .borda3:hover{
+        background-color: #2d5d89;
+        }
+    
+       .borda4{
+        background-color:#003366 ;
+        border: 1px solid silver;
+        height: 400px;
+        width: 260px;
+        position: absolute;
+        background-size: cover;
+        top: 820px;
+        left: 1080px;
+        border-radius: 10px;
+       }
+       .borda4:hover{
+        background-color: #2d5d89;
+        }
+    
+    /*barra nome das putas*/
+    .putas{
+        color: white;
+        font-family: helvetica;
+        text-decoration: none;
+        font-size: 30PX;
+        position: absolute;
+        top: 700px;
+        left: 100px;
+    }
+    .puta1{
+        margin: 15px 50px;
         
     }
-
-}
+    .puta2{
+        margin: 15px 50px;
+    }
+    .puta3{
+        margin: 15px 50px;
+    }
+    .puta4{
+        margin: 15px 50px;
+    }
+    
+    
+    /*menu de preços*/
+    .preço1{
+        margin: 80px 15px;
+        position: absolute;
+        top: 1000px;
+        left: 160px;
+        color: aliceblue;
+      }
+      .preço2{
+        margin: 80px 15px;
+        position: absolute;
+        top: 1000px;
+        left: 490px ;
+        color: aliceblue;
+      }
+      .preço3{
+        margin: 80px 15px;
+        position: absolute;
+        top: 1000px;
+        left: 810px;
+        color: aliceblue;
+      }
+      .preço4{
+        margin: 80px 15px;
+        position: absolute;
+        top: 1000px;
+        left: 1130px;
+        color: aliceblue;
+      }
+    
+    /*menu boas vindas*/
+    .line {
+        width: 10%;
+        height: 7px;
+        margin: 30px 30px 30px 180px;
+        background-color: #72120B;
+        transition: width 1s ease-out;
+      }
+      
+      .line:hover {
+        width: 50%;
+    
+      }
+     
+    .bemvindos{
+        background-color: ;
+        color: #72120B;
+        font-size: 20px;
+        font-family:  Arial, Helvetica, sans-serif;
+        padding: 10px 10px 10px 180px;
+        width: 250px;
+        height: 30px;
+        margin: 0;
+    
+    
+    }
+    
+    .boavindas{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #999999;
+        box-sizing: border-box;
+        margin: 20px 20px 90px 180px;
+        
+    }
+    /*imagens das putas*/
+    .img1{
+        position: absolute;
+        top: 840px;
+        left: 150px;
+    }
+    
+    .img2{
+        position: absolute;
+        top: 840px;
+        left: 452px;
+       
+    }
+    .img3{
+        position: absolute;
+        top: 840px;
+        left: 795px;
+    }
+    .img4{
+        position: absolute;
+        top: 840px;
+        left: 1100px;
+    }
+    
+    /*rodape da pag*/
+    footer {
+        background-color: #003366;
+        padding: 20px 0px 150px 0px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin: 20px 0px 0px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        position:absolute;
+        top: 1800px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        
+     
+        z-index: 1;
+      }
+      .insta{
+        margin: 10px 20px 10px 10px;
+      }
+    .line2{
+        height: 2px;
+        width: 100%;
+        background-color: #999999;
+        margin: 20px 0px 10px 0px;
+    }
+    
+    
+    .wraper{
+        
+        
+        position:absolute;
+        top: 1400px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    
+        form{
+            height: 200px;
+            width: 700px;
+            background: white;
+            padding: 16px;
+           
+        }
+         
+        input, text{
+            border: none;
+            width: 100%;
+            outline: none;
+            min-width: 300px;
+           border-bottom: 1px solid #ccc;
+        }
+    
+    
+        @media(max-width: 600px){
+            }
+            .cabare,  .boavindas, .bemvindos, .contatos, .contatos1 
+            { width: 100%;}
+        
+        
+        
+        
+            
