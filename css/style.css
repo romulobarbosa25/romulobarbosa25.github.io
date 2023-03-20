@@ -5,16 +5,23 @@ body{
 
     background:#d9e4ee ;
     display: flex;
+    margin: 0;
     }
     
+    .cabeçalho{
+        width: 100%;
+        background-color: #003366;
+        text-align: center;
+        }
     
-     .contatos{
+    
+    .contatos{
       
       padding: 30px;
-      color: rgb(66, 65, 65);
+      color: rgb(251, 251, 251);
       font-size: 15px;
       font-family: Arial, Helvetica, sans-serif;
-      
+      text-align: center;
       
     
      }
@@ -92,13 +99,22 @@ body{
         margin: 20px;
         background-color: #003366;
         color: azure;
+        border-radius: 15px;
         
+    }
+    .user-card:hover{
+        background-color: #2d5d89;
+        width: 240px;
+        height: 330px;
+        transition: 0.5s;
+       
     }
     
     .user-card img{
         width: 140px;
-        border-radius: 50%;
+        border-radius: ;
     }
+    
     
     .user-agendar{
        gap: 2rem;
@@ -111,21 +127,13 @@ body{
         border-radius: 25px;
         gap: 3rem;
     }
-        
+        .user-agendar:hover{
+            background-color: #713a36;
+            color: black;
+        }
     
         
         
-    }
-    .agendar{
-        color: aliceblue;
-        text-decoration: none;
-       font-family: Arial, Helvetica, sans-serif;
-       background: #72120B;
-       border: 10px solid #72120B;
-       border-radius: 25px;
-       margin: 20px 0 0 0;
-    }
-    
     
     
     /*menu boas vindas*/
@@ -276,7 +284,7 @@ body{
     
              @media screen and (max-width: 500px){
              .register-form{
-             margin: 700px 0 0 0;
+             margin: 70px 0 0 0;
              font-size: 50px;
              background-color:;
              }
@@ -285,7 +293,7 @@ body{
     
              @media screen and (max-width: 500px){
                 .user-card{
-                    padding: 0px 70px 250px 70px;
+                    padding: 0px 170px 250px 170px;
                     font-size: 30px;
                 }
              }
@@ -320,6 +328,14 @@ body{
     
                 @media screen and (max-width: 500px){
                 .user-card img{
-                    width: 250px;
+                    width: 300px;
+                    height: 250px;
                 }
+                }
+    
+                @media screen and (max-width: 500px){
+                    .cabeçalho{
+                        width: 200%;
+                        font-size: 50px;
+                    }
                 }
