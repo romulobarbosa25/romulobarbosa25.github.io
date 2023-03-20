@@ -7,33 +7,18 @@ body{
     display: flex;
     }
     
-    .background1{
-        background: #003366;
-        height: 80px;
-        width: 200% ;
-    }
+    
      .contatos{
       
       padding: 30px;
-      color: white;
-      font-size: 20px;
+      color: rgb(66, 65, 65);
+      font-size: 15px;
       font-family: Arial, Helvetica, sans-serif;
-      position: absolute;
-      top: 15px;
-      left: 300px;
+      
+      
     
      }
-     .contatos1{
-      
-        padding: 30px;
-        color: white;
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        position: absolute;
-        top: 15px;
-        left: 500px;
-      
-       }
+    
     
     .cabare{
     color: white;
@@ -49,12 +34,13 @@ body{
     
     nav{
         text-align: center;
+       
     }
     nav a{
         color: black;
         display: inline-block;
-        padding: 10px 30px ;
-        margin: 10px;
+        padding: 30px 30px ;
+        margin: 20px;
         font-size: 18px;
         text-align: center;
         text-decoration: none;
@@ -93,6 +79,7 @@ body{
         background-color: #72120B;
         width: 100%;
         height: 400px;
+        margin: 0 0 700px 0;
     
     }
     
@@ -115,8 +102,15 @@ body{
     
     .user-agendar{
        gap: 2rem;
-    
-        
+       color: white;
+        background: #72120B;
+        text-decoration: none;
+        border: 30px solid #a79f9e;
+        padding: 15px 40px;
+        border: 20px;
+        border-radius: 25px;
+        gap: 3rem;
+    }
         
     
         
@@ -129,6 +123,7 @@ body{
        background: #72120B;
        border: 10px solid #72120B;
        border-radius: 25px;
+       margin: 20px 0 0 0;
     }
     
     
@@ -170,15 +165,13 @@ body{
     
     /*rodape da pag*/
     footer {
-        background-color: #003366;
-        padding: 20px 0px 150px 0px;
-        text-align: center;
-        font-size: 14px;
+        
+        padding: 20px 0px 0px 0px;
+        
+        
         color: white;
         margin: 20px 0px 0px 0px;
         font-family: Arial, Helvetica, sans-serif;
-        position:absolute;
-        top: 1800px;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -186,6 +179,14 @@ body{
      
         z-index: 1;
       }
+    #footer-content{
+        background-color: #003366;
+        text-align: center;
+        font-size: 14px;
+        margin: 50px 0 0 0;
+    
+    }
+    
      .logo-midia img{
         width: 40px;
      }
@@ -200,8 +201,8 @@ body{
     .wraper{
         
         
-        position:absolute;
-        top: 1400px;
+        
+       
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
         justify-content: center;
@@ -210,8 +211,7 @@ body{
     
         form{
             height: 200px;
-            width: 700px;
-            background: white;
+            width: 600px;
             padding: 16px;
             margin: 20px;
            
@@ -225,15 +225,101 @@ body{
            border-bottom: 1px solid #ccc;
         }
     
-    
-        @media(max-width: 600px){
-            
-            .cabare,  .boavindas, .bemvindos, .contatos, .contatos1 
-            { width: 100%;}
-    
-            
+        .register-form{
+          margin: 70px 0 300px 0;
         }
-        
-        
-        
             
+        
+    
+        @media(max-width: 500px){
+            
+            .cabare,  .boavindas, .bemvindos, .contatos, .contatos1, .background1
+            { width: 200%;
+                padding: 70px;
+                font-size: 50px;
+                margin:;
+            }
+            
+         
+             }
+        
+        
+    
+             @media screen and (max-width: 500px) {
+                #footer-content{ 
+                    width: 200%;
+                    font-size:30px;
+                    padding: 50px;
+                    margin: 700px 0px 0px 0px;
+                   
+                }
+            
+             }
+             @media screen and (max-width: 500px){
+             #users-container{
+                width: 200%;
+                height: 860px;
+                padding: 60px 60px 500px 60px;
+                margin: 0px 0px 200px 0px;
+             }
+    
+             }
+    
+             @media screen and (max-width: 500px){
+                .user-card{
+                    font-size: 30px;
+                    padding: 20px;
+                    margin: 50px;
+                }
+             }
+    
+    
+             @media screen and (max-width: 500px){
+             .register-form{
+             margin: 700px 0 0 0;
+             font-size: 50px;
+             background-color:;
+             }
+    
+             }
+    
+             @media screen and (max-width: 500px){
+                .user-card{
+                    padding: 0px 70px 250px 70px;
+                    font-size: 30px;
+                }
+             }
+    
+             @media screen and (max-width: 500px){
+             .contatos{
+                display: inline;
+                text-align: end;
+                font-size: 20px;
+             }
+             }
+    
+    
+              @media screen and (max-width: 500px){
+              nav a{
+                font-size: 50px;
+                text-align: center;
+                margin:0px;
+                
+              }
+    
+              }
+    
+              
+              @media screen and (max-width: 500px){
+                nav{
+                  width: 200%;
+                  
+                }
+      
+                }
+    
+                @media screen and (max-width: 500px){
+                .user-card img{
+                    width: 250px;
+                }
+                }
