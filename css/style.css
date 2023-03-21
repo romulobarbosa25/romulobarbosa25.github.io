@@ -349,6 +349,7 @@ body{
                 .user-card img{
                    width: 340px;
                    height:300px;
+                   border-radius: 50%;
                 }
                 }
     
