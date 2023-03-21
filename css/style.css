@@ -247,7 +247,7 @@ body{
     
         @media(max-width: 500px){
             
-            .cabare,  .boavindas, .bemvindos, .contatos, .contatos1, .background1
+          .contatos, .contatos1, .background1
             { width: 200%;
                 padding: 70px;
                 font-size: 50px;
@@ -261,7 +261,7 @@ body{
     
              @media screen and (max-width: 500px) {
                 #footer-content{ 
-                    width: 200%;
+                    width: 180%;
                     font-size:30px;
                     padding: 50px;
                     margin: 700px 0px 0px 0px;
@@ -271,8 +271,8 @@ body{
              }
              @media screen and (max-width: 500px){
              #users-container{
-                width: 200%;
-                height: 860px;
+                width: 180%;
+                height: 1050px;
                 padding: 60px 60px 500px 60px;
                 margin: 0px 0px 200px 0px;
              }
@@ -299,11 +299,23 @@ body{
     
              @media screen and (max-width: 500px){
                 .user-card{
-                    padding: 0px 170px 250px 170px;
+                    padding: 30px 230px 270px 170px;
                     font-size: 30px;
-                    text-align: center;
+                    text-align:  center;
+    
                 }
              }
+    
+             @media screen and (max-width: 500px){
+                h3{
+                   
+                    font-size: 40px;
+                    width: 135%;
+                    
+    
+                }
+             }
+    
     
              @media screen and (max-width: 500px){
              .contatos{
@@ -335,14 +347,14 @@ body{
     
                 @media screen and (max-width: 500px){
                 .user-card img{
-                    width: 300px;
-                    height: 250px;
+                   width: 340px;
+                   height:300px;
                 }
                 }
     
                 @media screen and (max-width: 500px){
                     .cabeçalho{
-                        width: 200%;
+                        width: 190%;
                        
                     }
                 }
@@ -352,3 +364,31 @@ body{
                         font-size: 40px;
                     }
                 }
+    
+                @media screen and (max-width: 500px){
+                    .table, .bemvindos, .boavindas{
+                      text-align:justify;
+                      font-size: 50px;
+                      
+                    }
+                }
+                @media screen and (max-width: 500px){
+                     .bemvindos, .boavindas{
+                        width: 150%;
+                        padding: 70px;
+                        font-size: 55px;
+                        margin:;
+                    }
+                }
+    
+                @media(max-width: 500px){
+            
+                    .cabare 
+                    { width: 170%;
+                        padding: 70px;
+                        font-size: 50px;
+                        text-align: center;
+                    }
+                    }
+    
+                   
